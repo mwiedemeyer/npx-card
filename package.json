@@ -1,0 +1,40 @@
+{
+  "name": "mwiede",
+  "version": "1.0.2",
+  "description": "Personal card from Marco Wiedemeyer (@mwiede)",
+  "main": "/bin/card.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "bin": {
+    "mwiede": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwiedemeyer/marco-npx-card.git"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npx",
+    "npx",
+    "card",
+    "business",
+    "card",
+    "mwiede"
+  ],
+  "author": "Marco Wiedemeyer <mail@mwiedemeyer.de> (https://blog.mwiedemeyer.de)",
+  "license": "MIT",
+  "homepage": "https://blog.mwiedemeyer.de",
+  "devDependencies": {
+    "boxen": "2.1.0",
+    "chalk": "2.4.2",
+    "standard": "12.0.1"
+  },
+  "files": [
+    "bin/card.js",
+    "build.js",
+    "LICENSE"
+  ],
+  "dependencies": {}
+}

@@ -1,4 +1,4 @@
-# My NPM Card
+# My NPM Business Card
 
 Based on @bnb's https://github.com/bnb/bitandbang
 

@@ -18,7 +18,7 @@ const options = {
 const data = {
 	name:            chalk.white('           Marco Wiedemeyer'),
 	handle:          chalk.white('mwiede'),
-	work:            chalk.white('Senior Developer @ Otto Group'),
+	work:            chalk.white('Solution Architect @ Quibiq (quibiq.de)'),
 	from:            chalk.white('Hamburg, Germany'),
 	twitter:         chalk.gray('https://twitter.com/') + chalk.blueBright('mwiede'),
 	github:          chalk.gray('https://github.com/') + chalk.green('mwiedemeyer'),

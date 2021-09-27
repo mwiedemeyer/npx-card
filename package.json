@@ -1,6 +1,6 @@
 {
   "name": "mwiede",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Personal card from Marco Wiedemeyer (@mwiede)",
   "main": "/bin/card.js",
   "scripts": {
@@ -27,9 +27,9 @@
   "license": "MIT",
   "homepage": "https://blog.mwiedemeyer.de",
   "devDependencies": {
-    "boxen": "2.1.0",
-    "chalk": "2.4.2",
-    "standard": "12.0.1"
+    "boxen": "5.1.2",
+    "chalk": "4.1.2",
+    "standard": "16.0.3"
   },
   "files": [
     "bin/card.js",

@@ -25,7 +25,8 @@ const data = {
 	linkedin:        chalk.gray('https://linkedin.com/in/') + chalk.blueBright('mwiede'),
 	xing:            chalk.gray('https://xing.com/profile/') + chalk.cyan('Marco_Wiedemeyer'),
 	web:             chalk.blueBright('https://blog.mwiedemeyer.de'),
-	keybase:         chalk.gray('https://keybase.io/') + chalk.blueBright('mwiede'),
+	keybase: 				 chalk.gray('https://keybase.io/') + chalk.blueBright('mwiede'),
+	credly: 				 chalk.gray('https://www.credly.com/users/') + chalk.cyan('mwiede'),
 	npx:             chalk.red('npx') + ' ' + chalk.white('mwiede'),
 	labelWork:       chalk.white.bold('   Title:'),
 	labelFrom:       chalk.white.bold('    From:'),
@@ -34,7 +35,8 @@ const data = {
 	labelLinkedIn:   chalk.white.bold('LinkedIn:'),
 	labelXing:       chalk.white.bold('    Xing:'),
 	labelWeb:        chalk.white.bold('     Web:'),
-	labelKeybase:    chalk.white.bold(' Keybase:'),
+	labelKeybase:		 chalk.white.bold(' Keybase:'),
+	labelCredly:     chalk.white.bold('  Credly:'),
 	labelCard:       chalk.white.bold('    Card:'),
 };
 
@@ -50,6 +52,7 @@ ${data.labelLinkedIn}  ${data.linkedin}
 ${data.labelXing}  ${data.xing}
 ${data.labelKeybase}  ${data.keybase}
 ${data.labelWeb}  ${data.web}
+${data.labelCredly}  ${data.credly}
 
 ${data.labelCard}  ${data.npx}
 `;

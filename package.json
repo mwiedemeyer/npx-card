@@ -1,6 +1,6 @@
 {
   "name": "mwiede",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Personal card from Marco Wiedemeyer (@mwiede)",
   "main": "/bin/card.js",
   "scripts": {

@@ -21,6 +21,7 @@ const data = {
 	work:            chalk.white('Solution Architect @ Quibiq (quibiq.de)'),
 	from:            chalk.white('Hamburg, Germany'),
 	twitter:         chalk.gray('https://twitter.com/') + chalk.blueBright('mwiede'),
+	mastodon:        chalk.gray('https://mastodon.world/') + chalk.blueBright('@mwiede'),
 	github:          chalk.gray('https://github.com/') + chalk.green('mwiedemeyer'),
 	linkedin:        chalk.gray('https://linkedin.com/in/') + chalk.blueBright('mwiede'),
 	xing:            chalk.gray('https://xing.com/profile/') + chalk.cyan('Marco_Wiedemeyer'),
@@ -30,7 +31,8 @@ const data = {
 	npx:             chalk.red('npx') + ' ' + chalk.white('mwiede'),
 	labelWork:       chalk.white.bold('   Title:'),
 	labelFrom:       chalk.white.bold('    From:'),
-	labelTwitter:    chalk.white.bold(' Twitter:'),
+	labelTwitter: 	 chalk.white.bold(' Twitter:'),
+	labelMastodon: 	 chalk.white.bold('Mastodon:'),
 	labelGitHub:     chalk.white.bold('  GitHub:'),
 	labelLinkedIn:   chalk.white.bold('LinkedIn:'),
 	labelXing:       chalk.white.bold('    Xing:'),
@@ -47,6 +49,7 @@ ${data.labelWork}  ${data.work}
 ${data.labelFrom}  ${data.from}
 
 ${data.labelTwitter}  ${data.twitter}
+${data.labelMastodon}  ${data.mastodon}
 ${data.labelGitHub}  ${data.github}
 ${data.labelLinkedIn}  ${data.linkedin}
 ${data.labelXing}  ${data.xing}

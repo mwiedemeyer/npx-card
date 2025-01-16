@@ -18,10 +18,9 @@ const options = {
 const data = {
 	name:            chalk.white('           Marco Wiedemeyer'),
 	handle:          chalk.white('mwiede'),
-	work:            chalk.white('Azure Cloud Architect @ ENERCON (enercon.de)'),
+	work:            chalk.white('Azure Cloud Architect @ QUIBIQ Hamburg GmbH (quibiq.de)'),
 	from:            chalk.white('Hamburg, Germany'),
-	twitter:         chalk.gray('https://twitter.com/') + chalk.blueBright('mwiede'),
-	mastodon:        chalk.gray('https://mastodon.world/') + chalk.blueBright('@mwiede'),
+	bluesky:         chalk.blueBright('@mwiede') + chalk.gray('.bsky.social'),
 	github:          chalk.gray('https://github.com/') + chalk.green('mwiedemeyer'),
 	linkedin:        chalk.gray('https://linkedin.com/in/') + chalk.blueBright('mwiede'),
 	xing:            chalk.gray('https://xing.com/profile/') + chalk.cyan('Marco_Wiedemeyer'),
@@ -31,8 +30,7 @@ const data = {
 	npx:             chalk.red('npx') + ' ' + chalk.white('mwiede'),
 	labelWork:       chalk.white.bold('   Title:'),
 	labelFrom:       chalk.white.bold('    From:'),
-	labelTwitter: 	 chalk.white.bold(' Twitter:'),
-	labelMastodon: 	 chalk.white.bold('Mastodon:'),
+	labelBluesky: 	 chalk.white.bold(' Bluesky:'),
 	labelGitHub:     chalk.white.bold('  GitHub:'),
 	labelLinkedIn:   chalk.white.bold('LinkedIn:'),
 	labelXing:       chalk.white.bold('    Xing:'),
@@ -48,8 +46,7 @@ const output = `${data.name} / ${data.handle}
 ${data.labelWork}  ${data.work}
 ${data.labelFrom}  ${data.from}
 
-${data.labelTwitter}  ${data.twitter}
-${data.labelMastodon}  ${data.mastodon}
+${data.labelBluesky}  ${data.bluesky}
 ${data.labelGitHub}  ${data.github}
 ${data.labelLinkedIn}  ${data.linkedin}
 ${data.labelXing}  ${data.xing}
